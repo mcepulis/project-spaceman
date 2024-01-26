@@ -68,8 +68,9 @@ body {
 
 .description {
     margin-top: 10px;
-    font-family: sans-serif;
-    color: #383838;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #6b6a6a;
+    font-size: small;
 }
 
 .btn {
