@@ -59,18 +59,22 @@ body {
     font-size: 61px;
 }
 
+/* .subtitle > .lost {
+    border-bottom: 5px solid rgb(85, 34, 126);
+    padding-bottom: 10px;
+} */
+
+.line {
+    width: 126px;
+    height: 9px;
+    background-color: #383838;
+    margin-left: 8px;
+}
+
 .description {
     margin-top: 10px;
     font-family: sans-serif;
     color: #383838;
-}
-
-.subtitle {
-    margin-bottom: 20px;
-}
-
-.subtitle > .lost {
-    border-bottom: 5px solid rgb(85, 34, 126);
 }
 
 .btn {
