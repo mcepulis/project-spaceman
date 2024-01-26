@@ -7,6 +7,12 @@ body * {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 40px;
+    padding-top: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
         sans-serif;
 }
@@ -15,47 +21,107 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
     width: 800px;
-    margin-left: calc((100% - 800px) / 2);
-    margin-bottom: 40px;
-    background-color: yellow;
+    /* margin-left: calc((100% - 800px) / 2); */
 }
 
 .logo {
+    height: 25px;
 }
 .main-nav {
+    display: flex;
+    gap: 20px;
 }
 .main-nav > .nav-link {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
 }
 
 .column-left {
-}
-.column-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 11px;
+    width: 800px;
 }
 
 .main-title {
-    font-weight: bold;
+    margin-bottom: -25px;
+    padding: 0px;;
+    font-weight: 100;
+    font-size: 61px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #383838;
 }
+
 .subtitle {
+    font-size: 61px;
 }
+
 .description {
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: #383838;
 }
 
-.btn-list {
-}
-.btn-list > .btn {
-}
-.btn-list > .btn + .btn {
+.subtitle {
+    margin-bottom: 20px;
 }
 
-.main-img {
+.subtitle > .lost {
+    border-bottom: 5px solid rgb(85, 34, 126);
 }
 
-.socials {
+.btn {
+    display: inline-block;
+    margin-top: 45px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border: 4px solid rgb(85, 34, 126);
+    border-radius: 30px;
+    background-color: rgb(85, 34, 126);
+    color: white;
 }
-.socials > .social-link {
+
+
+.btn + .btn {
+    background-color: white;
+    color: rgb(85, 34, 126);
+    margin-left: 15px;
+} 
+
+.column-right {
+    width: 431px;
 }
+
+.socials > a {
+margin-right: 10px;
+    color: #fff;
+    background: #aaa;
+}
+
+.socials > a + a {
+    color: #aaa;
+    background: #fff;
+}
+
+.socials > a + a + a {
+    color: #fff;
+    background: #aaa;
+}
+
+.socials > a + a + a + a {
+    color: #aaa;
+    background: #fff;
+}
+
 
 .copyright-text {
+    color: #383838;
 }
