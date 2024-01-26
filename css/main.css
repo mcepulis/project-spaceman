@@ -95,6 +95,11 @@ body {
     margin-left: 15px;
 } 
 
+.btn:hover {
+    background-color: rgb(176, 93, 144);
+    color: white;
+}
+
 .column-right {
     width: 431px;
 }
