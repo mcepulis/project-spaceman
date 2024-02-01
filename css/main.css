@@ -138,6 +138,15 @@ body {
         width: 600px;
         background-color: orange;
     }
+    .btn-list > .btn {
+        padding: 13px;
+        font-size: 13px;
+        font-weight: bold;
+        background-color: blueviolet;
+        color: white;
+        border-radius: 28px;
+        border: 2px solid blueviolet;
+    }
 }
 
 @media (max-width: 768px) {
