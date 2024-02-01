@@ -187,7 +187,7 @@ body {
 @media (max-width: 768px) {
     body {
         /* background-color: red; */
-        margin: 10px 10px
+        margin: 10% 10%
     }
     .container {
         display: flex;
