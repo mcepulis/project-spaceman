@@ -164,6 +164,10 @@ body {
     .description {
         font-size: 15px;
     }
+    .line {
+        width: 68px;
+        height: 7px;
+    }
     .btn-list > .btn {
         padding: 8px;
         font-size: 13px;
@@ -214,6 +218,10 @@ body {
         color: black;
         border-bottom: 3px solid transparent;
         /* margin-right: 10px; */
+    }
+    .line {
+        width: 68px;
+        height: 7px;
     }
     .logo {
         height: 30px;
